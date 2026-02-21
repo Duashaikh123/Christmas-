@@ -118,6 +118,11 @@
     color: #000000;
     margin-bottom: 20px;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card {
     background-color: #f5f5f500;
     padding:20px;
@@ -286,7 +291,7 @@
     background-color: #f5f5f5;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -306,7 +311,7 @@
     padding-bottom: 15px;
 }
 .fifth-price {
-    font-size: 20px;
+    font-size: 24px;
     color: #da2727;
     margin-bottom: 10px;
 }
@@ -330,7 +335,7 @@
     width:100%;
     height: 80vh;
     display: flex;
-    background-color: #da2727;
+    /* background-color: #da2727; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -338,6 +343,7 @@
 .sixth-div{
     width: 80%;
     height: 60vh;
+    display: flex;
     background-color: #da2727;
     justify-content: center;
     align-items: center;
